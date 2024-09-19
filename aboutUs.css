@@ -1,0 +1,75 @@
+.container {
+    background: url("/image/abstract-blurred-people-seminar-event-background.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.537);
+    min-height: 100vh;
+    justify-content: left;
+    display: flex;
+    
+}
+
+.overlay h1 {
+    color: white;
+    width: 60%;
+    text-align: left;
+    font-size: 80px;
+    padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .overlay h1 {
+        font-size: 50px;
+    }
+
+    .top div {
+        transform: rotate(90deg);
+        z-index: 0;
+    }   
+
+    .top {
+        flex-direction: column;
+    }
+
+    .top h1 {
+        margin: 50px;
+    }
+    .facility{
+        flex-direction: column;
+    }
+    .aboutus{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .aboutus2 h2{
+        font-size: 20px;
+    }
+    .aboutus img{
+        margin-top: 20px;
+    }
+}
+.aboutus{
+    display: flex;
+    align-items: center;
+}
+.aboutus img{
+    margin-left: auto;
+    width: 30vw;
+    object-fit: cover;
+}
+.aboutus h2{
+    text-align: justify;
+    margin-inline: 20px;
+}
+.aboutus2{
+   margin-inline: 20px;
+}
+.aboutus img{
+    margin-right: 100px;
+}

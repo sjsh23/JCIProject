@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contactUs.css">
+
+    <title>JCC</title>
+</head>
+
+<body>
+    <section class="top-nav">
+        <div>
+            <a class="logo" href="/"><span class="brown">J</span>CC</a>
+            <section id="navbar-lg">
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li><a href="events.html">Events</a></li>
+            <li><a href="/pricing.html">Pricing</a></li>
+            <li><a href="/aboutUs.html">About us</a></li>
+            <li><a href="/contactUs.html">Contact Us</a></li>
+        </ul>
+    </section>
+</body>
+<main>
+    <div class="container">
+        <div class="overlay">
+            <div class="container2">
+                <div class="left">
+                    <div class="h3 heading">Get in Touch</div>
+                <p class="text">Contact us for more information about JCC</p>
+                <form action="#">
+                    <div class="inputBox">
+                        <input type="text" 
+                        name="name" 
+                        class="name"
+                        id="name" 
+                        placeholder="Enter your name">
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" 
+                        name="email" 
+                        class="email"
+                        id="email"
+                        placeholder="Enter your email">
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" 
+                        name="Phone" 
+                        class="Phone"
+                        id="Phone" 
+                        placeholder="Enter your phonenumber">
+                    </div>
+                    <div class="inputBox">
+                        <input 
+                        name="message" 
+                        class="message"
+                        id="message"
+                        placeholder="Enter your message">
+                    </div>
+                    <div class="choose">
+                        Choose your preferred method:
+                        <br>
+                        <br>
+                        <input type="checkbox" name="email" id="emailCheck">Email
+                        <input type="checkbox" name="Phone" id="phoneCheck">Phone
+                    </div>
+                    <button type = "button" class="btn" onclick="validate()">Submit</button>
+                </form>
+                </div>
+                <div class="right">
+                    <div class="illustration">
+                        <img src="/image/Convention Hall_b.jpg" alt="">
+                    </div>
+                    <div class="contact-info">
+                        <div class="infoBox">
+                            <div class="icon">
+                                <img src="/image/location-removebg-preview.png" alt="">
+                            </div>
+                            <div class="text">
+                                <p>Jakarta, Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="infoBox">
+                            <div class="icon">
+                                <img src="/image/phone.png" alt="">
+                            </div>
+                            <div class="text">
+                                <a href="tel: +62-231223452">+62-2312-2345-2</a>
+                            </div>
+                        </div>
+                        <div class="infoBox">
+                            <div class="icon">
+                                <img src="/image/Email.png" alt="">
+                            </div>
+                            <div class="text">
+                                <a href="mailto:JccIndonesia@gmail.com">JccIndonesia@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <ul>
+                    <li><a href="/contactUs.html">Contact us</a></li>
+                    <li><a href="/pricing.html">Pricing</a></li>
+                    <li><a href="/events.html">Events</a></li>
+                    <li><a href="/aboutUs.html">About us</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                INFERNO Copyright © 2021 Inferno - All rights reserved
+            </div>
+        </div>
+    </footer>
+
+
+
+<script src="script.js"></script>
+</main>
+
+</html>
